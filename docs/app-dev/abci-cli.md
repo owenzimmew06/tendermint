@@ -38,7 +38,7 @@ Available Commands:
   help        Help about any command
   info        Get some info about the application
   query       Query the application state
-  set_option  Set an options on the application
+  set_option  Set an option on the application
 
 Flags:
       --abci string      socket or grpc (default "socket")
@@ -327,7 +327,7 @@ application easily in any language.
 We have implemented the counter in a number of languages [see the
 example directory](https://github.com/tendermint/tendermint/tree/v0.34.x/abci/example).
 
-To run the Node.js version, fist download & install [the Javascript ABCI server](https://github.com/tendermint/js-abci):
+To run the Node.js version, first download & install [the Javascript ABCI server](https://github.com/tendermint/js-abci):
 
 ```sh
 git clone https://github.com/tendermint/js-abci.git
@@ -341,7 +341,7 @@ Now you can start the app:
 node example/counter.js
 ```
 
-(you'll have to kill the other counter application process). In another
+(You'll have to kill the other counter application process). In another
 window, run the console and those previous ABCI commands. You should get
 the same results as for the Go version.
 
